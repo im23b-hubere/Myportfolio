@@ -13,8 +13,29 @@ export default function Home() {
                 <div className="nebula" />
             </div>
 
+            {/* Navigation Menu */}
+            <nav className="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-sm border-b border-zinc-800/50">
+                <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="flex items-center h-16">
+                        <div className="flex-1">
+                            <span className="text-xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 bg-clip-text text-transparent">
+                                Eric Huber
+                            </span>
+                        </div>
+                        <div className="flex-1 flex justify-center">
+                            <div className="flex items-center space-x-8">
+                                <a href="/" className="text-sm text-gray-300 hover:text-white transition-colors">Home</a>
+                                <a href="/projects-certifications" className="text-sm text-gray-300 hover:text-white transition-colors">Projects & Certifications</a>
+                                <a href="/#contact" className="text-sm text-gray-300 hover:text-white transition-colors">Contact</a>
+                            </div>
+                        </div>
+                        <div className="flex-1"></div>
+                    </div>
+                </div>
+            </nav>
+
             {/* Hero Section */}
-            <div className="relative min-h-[90vh] flex items-center">
+            <div className="relative min-h-[90vh] flex items-center pt-16">
                 <div className="absolute inset-0 overflow-hidden">
                     <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(68,68,68,0.05)_1px,transparent_1px)] bg-[length:32px_32px] animate-grid-fade"/>
                     <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black"/>
@@ -49,7 +70,14 @@ export default function Home() {
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 rounded-full animate-pulse"/>
                                 <div className="absolute inset-4 bg-zinc-900 rounded-full overflow-hidden">
                                     <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center">
-                                        <span className="text-2xl text-zinc-600">Profilbild</span>
+                                        <Image
+                                            src="/portfolio.jpg"
+                                            alt="Eric Huber"
+                                            fill
+                                            className="object-cover"
+                                            sizes="(max-width: 768px) 100vw, 400px"
+                                            priority
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -59,12 +87,13 @@ export default function Home() {
             </div>
 
             {/* Skills Section */}
-            <section className="py-24 relative">
+            <section id="expertise" className="relative py-32 section-transition section-glow">
                 <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-900/50 to-black"/>
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(68,68,68,0.05)_1px,transparent_1px)] bg-[length:32px_32px] animate-grid-fade"/>
                 <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                     <AnimatedSection className="text-center mb-20">
-                        <h2 className="text-3xl md:text-4xl font-bold mb-8">My Expertise</h2>
-                        <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">My Expertise</h2>
+                        <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed text-center">
                             From the first line of code to complex applications, my journey in tech has been driven by curiosity and a 
                             passion for creating innovative solutions. I specialize in building modern, responsive web applications 
                             that combine elegant design with powerful functionality.
@@ -99,12 +128,13 @@ export default function Home() {
             </section>
 
             {/* Beyond Code Section */}
-            <section className="py-24 relative">
+            <section id="beyond-code" className="relative py-32 section-transition section-glow">
                 <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-900/50 to-black"/>
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(68,68,68,0.05)_1px,transparent_1px)] bg-[length:32px_32px] animate-grid-fade"/>
                 <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                     <AnimatedSection className="text-center mb-20">
-                        <h2 className="text-3xl md:text-4xl font-bold mb-8">Beyond Code</h2>
-                        <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Beyond Code</h2>
+                        <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed text-center">
                             When I'm not immersed in code, I explore other passions that fuel my creativity and drive. These diverse 
                             interests shape my perspective and enhance my problem-solving abilities in unique ways.
                         </p>
