@@ -26,7 +26,7 @@ export default function ProjectsCertifications() {
                             <div className="flex items-center space-x-8">
                                 <a href="/" className="text-sm text-gray-300 hover:text-white transition-colors">Home</a>
                                 <a href="/projects-certifications" className="text-sm text-gray-300 hover:text-white transition-colors">Projects & Certifications</a>
-                                <a href="/#contact" className="text-sm text-gray-300 hover:text-white transition-colors">Contact</a>
+                                <a href="/#get-in-touch" className="text-sm text-gray-300 hover:text-white transition-colors">Contact</a>
                             </div>
                         </div>
                         <div className="flex-1"></div>

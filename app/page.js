@@ -26,7 +26,7 @@ export default function Home() {
                             <div className="flex items-center space-x-8">
                                 <a href="/" className="text-sm text-gray-300 hover:text-white transition-colors">Home</a>
                                 <a href="/projects-certifications" className="text-sm text-gray-300 hover:text-white transition-colors">Projects & Certifications</a>
-                                <a href="/#contact" className="text-sm text-gray-300 hover:text-white transition-colors">Contact</a>
+                                <a href="/contact" className="text-sm text-gray-300 hover:text-white transition-colors">Contact</a>
                             </div>
                         </div>
                         <div className="flex-1"></div>
@@ -68,17 +68,16 @@ export default function Home() {
                         <AnimatedSection>
                             <div className="relative aspect-square max-w-md mx-auto">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 rounded-full animate-pulse"/>
-                                <div className="absolute inset-4 bg-zinc-900 rounded-full overflow-hidden">
-                                    <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-zinc-900 flex items-center justify-center">
-                                        <Image
-                                            src="/portfolio.jpg"
-                                            alt="Eric Huber"
-                                            fill
-                                            className="object-cover"
-                                            sizes="(max-width: 768px) 100vw, 400px"
-                                            priority
-                                        />
-                                    </div>
+                                <div className="relative h-full w-full rounded-full overflow-hidden">
+                                    <Image
+                                        src="/profile.jpg"
+                                        alt="Eric Huber"
+                                        fill
+                                        className="object-cover hover:scale-105 transition-transform duration-300"
+                                        sizes="(max-width: 768px) 100vw, 50vw"
+                                        quality={100}
+                                        priority
+                                    />
                                 </div>
                             </div>
                         </AnimatedSection>
@@ -142,7 +141,7 @@ export default function Home() {
 
                     <div className="space-y-8 mt-12">
                         <AnimatedSection>
-                            <div className="group relative overflow-hidden rounded-2xl">
+                            <div className="group relative overflow-hidden rounded-2xl card-hover hover-lift">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
                                 <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl">
                                     <div className="flex flex-col md:flex-row gap-6">
@@ -172,7 +171,7 @@ export default function Home() {
                         </AnimatedSection>
 
                         <AnimatedSection delay={0.2}>
-                            <div className="group relative overflow-hidden rounded-2xl">
+                            <div className="group relative overflow-hidden rounded-2xl card-hover hover-lift">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
                                 <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl">
                                     <div className="flex flex-col md:flex-row gap-6">
@@ -202,7 +201,7 @@ export default function Home() {
                         </AnimatedSection>
 
                         <AnimatedSection delay={0.4}>
-                            <div className="group relative overflow-hidden rounded-2xl">
+                            <div className="group relative overflow-hidden rounded-2xl card-hover hover-lift">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
                                 <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl">
                                     <div className="flex flex-col md:flex-row gap-6">
