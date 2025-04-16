@@ -1,6 +1,7 @@
 import Image from "next/image";
 import AnimatedSection from "./components/AnimatedSection";
 import AnimatedButton from "./components/AnimatedButton";
+import Header from "./components/Header";
 
 export default function Home() {
     return (
@@ -14,25 +15,7 @@ export default function Home() {
             </div>
 
             {/* Navigation Menu */}
-            <nav className="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-sm border-b border-zinc-800/50">
-                <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center h-16">
-                        <div className="flex-1">
-                            <span className="text-xl font-bold bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 bg-clip-text text-transparent">
-                                Eric Huber
-                            </span>
-                        </div>
-                        <div className="flex-1 flex justify-center">
-                            <div className="flex items-center space-x-8">
-                                <a href="/" className="text-sm text-gray-300 hover:text-white transition-colors">Home</a>
-                                <a href="/projects-certifications" className="text-sm text-gray-300 hover:text-white transition-colors">Projects & Certifications</a>
-                                <a href="/contact" className="text-sm text-gray-300 hover:text-white transition-colors">Contact</a>
-                            </div>
-                        </div>
-                        <div className="flex-1"></div>
-                    </div>
-                </div>
-            </nav>
+            <Header />
 
             {/* Hero Section */}
             <div className="relative min-h-[90vh] flex items-center pt-16">
@@ -56,10 +39,10 @@ export default function Home() {
                                     </p>
                                 </div>
                                 <div className="flex gap-4">
-                                    <AnimatedButton className="button-primary text-sm px-8 py-3">
+                                    <AnimatedButton className="button-primary text-sm px-8 py-3" href="/get-in-touch">
                                         Kontakt aufnehmen
                                     </AnimatedButton>
-                                    <AnimatedButton className="px-8 py-3 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors">
+                                    <AnimatedButton className="px-8 py-3 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="/projects-certifications">
                                         Projekte ansehen
                                     </AnimatedButton>
                                 </div>
@@ -67,17 +50,22 @@ export default function Home() {
                         </AnimatedSection>
                         <AnimatedSection>
                             <div className="relative aspect-square max-w-md mx-auto">
-                                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 rounded-full animate-pulse"/>
-                                <div className="relative h-full w-full rounded-full overflow-hidden">
-                                    <Image
-                                        src="/profile.jpg"
-                                        alt="Eric Huber"
-                                        fill
-                                        className="object-cover hover:scale-105 transition-transform duration-300"
-                                        sizes="(max-width: 768px) 100vw, 50vw"
-                                        quality={100}
-                                        priority
-                                    />
+                                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 rounded-full"/>
+                                <div className="absolute inset-4 bg-zinc-900 rounded-full overflow-hidden">
+                                    <div className="relative w-full h-full">
+                                        <Image
+                                            src="/Portrait_AI.jpeg"
+                                            alt="Eric Huber Portrait"
+                                            fill
+                                            style={{ 
+                                                objectFit: "cover",
+                                                objectPosition: "center 30%"
+                                            }}
+                                            sizes="(max-width: 768px) 100vw, 400px"
+                                            priority
+                                            unoptimized
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </AnimatedSection>

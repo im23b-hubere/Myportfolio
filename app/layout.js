@@ -20,50 +20,7 @@ export default function RootLayout({ children }) {
         <div className="nebula" />
 
         <div className="relative">
-            <nav className="fixed top-0 w-full z-50">
-                <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center justify-between h-16">
-                        <Link href="/" className="group relative">
-                  <span className="text-lg font-bold bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent">
-                    EH
-                  </span>
-                            <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-500 transition-all group-hover:w-full"></div>
-                        </Link>
-                        <div className="hidden md:flex items-center space-x-6">
-                            <Link href="/" className="nav-link group relative text-sm">
-                                Home
-                                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-500 transition-all group-hover:w-full"></div>
-                            </Link>
-                            <Link href="/projects" className="nav-link group relative text-sm">
-                                Projects
-                                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-500 transition-all group-hover:w-full"></div>
-                            </Link>
-                            <Link href="/certificates" className="nav-link group relative text-sm">
-                                Certificates
-                                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-500 transition-all group-hover:w-full"></div>
-                            </Link>
-                            <Link href="/contact" className="nav-link group relative text-sm">
-                                Get in Touch
-                                <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-500 transition-all group-hover:w-full"></div>
-                            </Link>
-                        </div>
-                        <button className="flex items-center p-1.5 rounded-lg text-white/80 hover:text-white transition-colors">
-                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-                {/* Mobile menu */}
-                <div className="md:hidden hidden">
-                    <div className="px-2 pt-2 pb-3 space-y-1 bg-black/80 backdrop-blur-sm">
-                        <Link href="/" className="block px-3 py-2 text-sm rounded-md hover:bg-zinc-800">Home</Link>
-                        <Link href="/projects" className="block px-3 py-2 text-sm rounded-md hover:bg-zinc-800">Projects</Link>
-                        <Link href="/certificates" className="block px-3 py-2 text-sm rounded-md hover:bg-zinc-800">Certificates</Link>
-                        <Link href="/contact" className="block px-3 py-2 text-sm rounded-md hover:bg-zinc-800">Get in Touch</Link>
-                    </div>
-                </div>
-            </nav>
+            {/* Die Navigation wird jetzt in der Header-Komponente verwaltet */}
             <main className="pt-16 relative">
                 {children}
             </main>
@@ -74,10 +31,10 @@ export default function RootLayout({ children }) {
                         <div className="space-y-1.5">
                             <h3 className="text-sm font-medium text-white/90">Navigation</h3>
                             <div className="space-y-1">
-                                <Link href="/imprint" className="block text-xs text-white/60 hover:text-white transition-colors">
+                                <Link href="/impressum" className="block text-xs text-white/60 hover:text-white transition-colors">
                                     Imprint
                                 </Link>
-                                <Link href="/privacy" className="block text-xs text-white/60 hover:text-white transition-colors">
+                                <Link href="/datenschutz" className="block text-xs text-white/60 hover:text-white transition-colors">
                                     Privacy Policy
                                 </Link>
                             </div>
