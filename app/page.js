@@ -51,21 +51,22 @@ export default function Home() {
                         <AnimatedSection>
                             <div className="relative aspect-square max-w-md mx-auto">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 rounded-full"/>
-                                <div className="absolute inset-4 bg-zinc-900 rounded-full overflow-hidden">
-                                    <div className="relative w-full h-full">
-                                        <Image
-                                            src="/Portrait_AI.jpeg"
-                                            alt="Eric Huber Portrait"
-                                            fill
-                                            style={{ 
-                                                objectFit: "cover",
-                                                objectPosition: "center 30%"
-                                            }}
-                                            sizes="(max-width: 768px) 100vw, 400px"
-                                            priority
-                                            unoptimized
-                                        />
-                                    </div>
+                                <div className="absolute inset-4 bg-zinc-900 rounded-full overflow-hidden flex items-center justify-center">
+                                    {/* Platzhalter-Avatar-Icon */}
+                                    <svg
+                                        width="100%"
+                                        height="100%"
+                                        viewBox="0 0 128 128"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="w-full h-full"
+                                    >
+                                        <circle cx="64" cy="64" r="64" fill="#23272f" />
+                                        <ellipse cx="64" cy="54" rx="28" ry="28" fill="#444857" />
+                                        <ellipse cx="64" cy="110" rx="40" ry="22" fill="#444857" />
+                                        <ellipse cx="64" cy="54" rx="18" ry="18" fill="#6b7280" />
+                                        <ellipse cx="64" cy="110" rx="28" ry="14" fill="#6b7280" />
+                                    </svg>
                                 </div>
                             </div>
                         </AnimatedSection>
