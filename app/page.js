@@ -39,7 +39,7 @@ export default function Home() {
                                     </p>
                                 </div>
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start w-full">
-                                    <AnimatedButton className="button-primary text-sm px-8 py-3" href="/get-in-touch">
+                                    <AnimatedButton className="button-primary text-sm px-8 py-3" href="/contact">
                                         Kontakt aufnehmen
                                     </AnimatedButton>
                                     <AnimatedButton className="px-8 py-3 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="/projects-certifications">
@@ -49,7 +49,7 @@ export default function Home() {
                             </div>
                         </AnimatedSection>
                         <AnimatedSection className="order-1 md:order-2 flex justify-center">
-                            <div className="relative aspect-square max-w-[180px] sm:max-w-xs md:max-w-md mx-auto p-2 md:p-0 min-h-[120px] z-10 mt-4 md:mt-0">
+                            <div className="relative aspect-square w-[120px] sm:w-[180px] md:w-full md:h-[400px] lg:h-[500px] mx-auto p-1 sm:p-2 md:p-4 min-h-[80px] z-10 mt-4 md:mt-0">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 rounded-full"/>
                                 <div className="absolute inset-4 bg-zinc-900 rounded-full overflow-hidden flex items-center justify-center">
                                     {/* Platzhalter-Avatar-Icon */}
