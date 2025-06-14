@@ -26,19 +26,19 @@ export default function Home() {
                 </div>
 
                 <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid md:grid-cols-2 gap-12 items-center">
-                        <AnimatedSection>
-                            <div className="space-y-8">
-                                <div className="relative z-10">
-                                    <h1 className="text-5xl sm:text-7xl font-bold mb-6 bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 bg-clip-text text-transparent leading-tight">
+                    <div className="grid md:grid-cols-2 gap-12 items-center text-center md:text-left">
+                        <AnimatedSection className="order-2 md:order-1 flex flex-col items-center md:items-start">
+                            <div className="space-y-8 w-full">
+                                <div className="relative z-10 w-full">
+                                    <h1 className="text-5xl sm:text-7xl font-bold mb-6 bg-gradient-to-r from-green-500 via-blue-500 to-purple-500 bg-clip-text text-transparent leading-tight w-full">
                                         Hi, I'm Eric
                                     </h1>
-                                    <p className="text-lg sm:text-xl text-white/80 max-w-xl leading-relaxed">
+                                    <p className="text-lg sm:text-xl text-white/80 max-w-xl leading-relaxed mx-auto md:mx-0">
                                         A passionate Web Developer & Music Producer crafting modern web experiences and electronic music. 
                                         I blend creativity with technology to create something unique.
                                     </p>
                                 </div>
-                                <div className="flex gap-4">
+                                <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start w-full">
                                     <AnimatedButton className="button-primary text-sm px-8 py-3" href="/get-in-touch">
                                         Kontakt aufnehmen
                                     </AnimatedButton>
@@ -48,8 +48,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </AnimatedSection>
-                        <AnimatedSection>
-                            <div className="relative aspect-square max-w-md mx-auto">
+                        <AnimatedSection className="order-1 md:order-2 flex justify-center">
+                            <div className="relative aspect-square max-w-[180px] sm:max-w-xs md:max-w-md mx-auto p-2 md:p-0 min-h-[120px] z-10 mt-4 md:mt-0">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 rounded-full"/>
                                 <div className="absolute inset-4 bg-zinc-900 rounded-full overflow-hidden flex items-center justify-center">
                                     {/* Platzhalter-Avatar-Icon */}
