@@ -85,6 +85,12 @@ export default function Footer() {
                         </Link>
                     </div>
                 </div>
+                {/* Rechtliche Links */}
+                <div className="mt-6 flex flex-wrap justify-center gap-4 text-xs text-zinc-500">
+                    <Link href="/impressum" className="hover:text-emerald-400 transition-colors underline underline-offset-4 focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded">Impressum</Link>
+                    <span aria-hidden="true">|</span>
+                    <Link href="/datenschutz" className="hover:text-emerald-400 transition-colors underline underline-offset-4 focus:outline-none focus:ring-2 focus:ring-emerald-500 rounded">Datenschutz</Link>
+                </div>
             </div>
         </footer>
     )
