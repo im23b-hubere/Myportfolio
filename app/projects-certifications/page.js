@@ -122,6 +122,46 @@ export default function ProjectsCertifications() {
                                 </div>
                             </div>
                         </AnimatedSection>
+
+                        {/* Project 3: BlissAI */}
+                        <AnimatedSection delay={0.4}>
+                            <div className="group relative overflow-hidden rounded-2xl">
+                                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
+                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
+                                    <img
+                                        src="/projects/BlissAI_preview.png"
+                                        alt="BlissAI Chatbot Preview"
+                                        className="w-full h-40 object-cover rounded-xl mb-4 shadow-lg border border-zinc-800/40"
+                                        loading="lazy"
+                                    />
+                                    <div className="flex items-center gap-3 mb-3">
+                                        <img
+                                            src="/projects/BlissAI_Logo.png"
+                                            alt="BlissAI Logo"
+                                            className="w-10 h-10 rounded-full bg-zinc-800 p-1 border border-zinc-700 shadow"
+                                            loading="lazy"
+                                        />
+                                        <h3 className="text-lg font-semibold">BlissAI: AI-Chatbot</h3>
+                                    </div>
+                                    <p className="text-sm text-gray-400 leading-relaxed mb-4">
+                                        Conversational AI chatbot powered by the OpenAI API. Provides real-time, context-aware responses for a seamless user experience. Built with a modern tech stack and deployed at <a href="https://blissai.live" className="underline hover:text-blue-400" target="_blank" rel="noopener noreferrer">blissai.live</a>.
+                                    </p>
+                                    <div className="flex flex-wrap gap-2 mb-4" aria-label="Technologies used in BlissAI">
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Next.js</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">React</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Tailwind CSS</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">OpenAI API</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Node.js</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Vercel</span>
+                                    </div>
+                                    <div className="flex gap-4 mt-auto">
+                                        <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://blissai.live" target="_blank" rel="noopener noreferrer">
+                                            Visit BlissAI
+                                        </AnimatedButton>
+                                    </div>
+                                </div>
+                            </div>
+                        </AnimatedSection>
                     </div>
                 </div>
             </section>
