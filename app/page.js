@@ -90,10 +90,30 @@ export default function Home() {
 
                     <div className="grid gap-8 max-w-3xl mx-auto mt-12">
                         {[
-                            {name: 'Frontend Development', level: 90, color: 'from-blue-500 to-cyan-500'},
-                            {name: 'Backend Development', level: 85, color: 'from-green-500 to-emerald-500'},
-                            {name: 'Databases', level: 75, color: 'from-purple-500 to-pink-500'},
-                            {name: 'DevOps & Tools', level: 80, color: 'from-cyan-500 to-blue-500'},
+                            {
+                                name: 'Frontend Development',
+                                level: 90,
+                                color: 'from-blue-500 to-cyan-500',
+                                technologies: ['React', 'Next.js', 'HTML/CSS', 'JavaScript/TypeScript']
+                            },
+                            {
+                                name: 'Backend Development',
+                                level: 85,
+                                color: 'from-green-500 to-emerald-500',
+                                technologies: ['Python', 'Node.js', 'REST APIs', 'MongoDB/SQL']
+                            },
+                            {
+                                name: 'Databases',
+                                level: 75,
+                                color: 'from-purple-500 to-pink-500',
+                                technologies: ['MySQL', 'MongoDB', 'PostgreSQL']
+                            },
+                            {
+                                name: 'DevOps & Tools',
+                                level: 80,
+                                color: 'from-cyan-500 to-blue-500',
+                                technologies: ['Git/GitHub', 'Docker', 'AWS', 'CI/CD']
+                            },
                         ].map((skill, index) => (
                             <AnimatedSection key={skill.name} delay={index * 0.1}>
                                 <div className="space-y-2">
@@ -101,11 +121,21 @@ export default function Home() {
                                         <span className="font-medium text-gray-200">{skill.name}</span>
                                         <span className="text-gray-400">{skill.level}%</span>
                                     </div>
-                                    <div className="h-2 bg-zinc-800 rounded-full overflow-hidden">
+                                    <div className="h-3 bg-zinc-800 rounded-full overflow-hidden">
                                         <div
                                             className={`h-full bg-gradient-to-r ${skill.color} animate-fill-bar`}
                                             style={{width: `${skill.level}%`}}
                                         />
+                                    </div>
+                                    <div className="flex flex-wrap gap-3 mt-3">
+                                        {skill.technologies.map((tech) => (
+                                            <span
+                                                key={tech}
+                                                className="px-4 py-1 rounded-full bg-zinc-800/80 text-gray-200 text-sm font-medium shadow-sm border border-zinc-700"
+                                            >
+                                                {tech}
+                                            </span>
+                                        ))}
                                     </div>
                                 </div>
                             </AnimatedSection>
