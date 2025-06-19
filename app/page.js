@@ -92,27 +92,27 @@ export default function Home() {
                         {[
                             {
                                 name: 'Frontend Development',
-                                level: 90,
+                                level: 60,
                                 color: 'from-blue-500 to-cyan-500',
                                 technologies: ['React', 'Next.js', 'HTML/CSS', 'JavaScript/TypeScript']
                             },
                             {
                                 name: 'Backend Development',
-                                level: 85,
+                                level: 40,
                                 color: 'from-green-500 to-emerald-500',
                                 technologies: ['Python', 'Node.js', 'REST APIs', 'MongoDB/SQL']
                             },
                             {
                                 name: 'Databases',
-                                level: 75,
+                                level: 50,
                                 color: 'from-purple-500 to-pink-500',
                                 technologies: ['MySQL', 'MongoDB', 'PostgreSQL']
                             },
                             {
                                 name: 'DevOps & Tools',
-                                level: 80,
+                                level: 55,
                                 color: 'from-cyan-500 to-blue-500',
-                                technologies: ['Git/GitHub', 'Docker', 'AWS', 'CI/CD']
+                                technologies: ['Git/GitHub', 'Docker', 'AWS', 'n8n']
                             },
                         ].map((skill, index) => (
                             <AnimatedSection key={skill.name} delay={index * 0.1}>
