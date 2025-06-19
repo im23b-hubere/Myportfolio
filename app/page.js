@@ -90,11 +90,10 @@ export default function Home() {
 
                     <div className="grid gap-8 max-w-3xl mx-auto mt-12">
                         {[
-                            {name: 'Python', level: 95, color: 'from-green-500 to-emerald-500'},
-                            {name: 'JavaScript / TypeScript', level: 90, color: 'from-blue-500 to-cyan-500'},
-                            {name: 'React & Next.js', level: 85, color: 'from-cyan-500 to-blue-500'},
-                            {name: 'Node.js', level: 80, color: 'from-green-500 to-emerald-500'},
-                            {name: 'SQL & MongoDB', level: 75, color: 'from-purple-500 to-pink-500'},
+                            {name: 'Frontend Development', level: 90, color: 'from-blue-500 to-cyan-500'},
+                            {name: 'Backend Development', level: 85, color: 'from-green-500 to-emerald-500'},
+                            {name: 'Databases', level: 75, color: 'from-purple-500 to-pink-500'},
+                            {name: 'DevOps & Tools', level: 80, color: 'from-cyan-500 to-blue-500'},
                         ].map((skill, index) => (
                             <AnimatedSection key={skill.name} delay={index * 0.1}>
                                 <div className="space-y-2">
