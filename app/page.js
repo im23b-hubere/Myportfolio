@@ -52,21 +52,14 @@ export default function Home() {
                             <div className="relative aspect-square w-[120px] sm:w-[180px] md:w-full md:h-[400px] lg:h-[500px] mx-auto p-1 sm:p-2 md:p-4 min-h-[80px] z-10 mt-4 md:mt-0">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 rounded-full"/>
                                 <div className="absolute inset-4 bg-zinc-900 rounded-full overflow-hidden flex items-center justify-center">
-                                    {/* Platzhalter-Avatar-Icon */}
-                                    <svg
-                                        width="100%"
-                                        height="100%"
-                                        viewBox="0 0 128 128"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        className="w-full h-full"
-                                    >
-                                        <circle cx="64" cy="64" r="64" fill="#23272f" />
-                                        <ellipse cx="64" cy="54" rx="28" ry="28" fill="#444857" />
-                                        <ellipse cx="64" cy="110" rx="40" ry="22" fill="#444857" />
-                                        <ellipse cx="64" cy="54" rx="18" ry="18" fill="#6b7280" />
-                                        <ellipse cx="64" cy="110" rx="28" ry="14" fill="#6b7280" />
-                                    </svg>
+                                    <Image
+                                        src="/PB/567A1059.JPG"
+                                        alt="Eric - Web Developer & Music Producer"
+                                        fill
+                                        className="object-cover"
+                                        sizes="(max-width: 640px) 112px, (max-width: 768px) 172px, 392px"
+                                        priority
+                                    />
                                 </div>
                             </div>
                         </AnimatedSection>
