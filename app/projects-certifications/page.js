@@ -202,6 +202,46 @@ export default function ProjectsCertifications() {
                                 </div>
                             </div>
                         </AnimatedSection>
+
+                        {/* Project 5: Personalized Training Planner */}
+                        <AnimatedSection delay={0.8}>
+                            <div className="group relative overflow-hidden rounded-2xl">
+                                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
+                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
+                                    <div className="w-full h-40 bg-gradient-to-br from-orange-500/20 to-red-500/20 rounded-xl mb-4 flex items-center justify-center border border-zinc-800/40">
+                                        <div className="text-center">
+                                            <div className="text-4xl mb-2">🏋️</div>
+                                            <div className="text-sm text-gray-300 font-medium">Training Planner</div>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center gap-3 mb-3">
+                                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center border border-zinc-700 shadow">
+                                            <span className="text-white font-bold text-lg">💪</span>
+                                        </div>
+                                        <h3 className="text-lg font-semibold">Personalized Training Planner</h3>
+                                    </div>
+                                    <p className="text-sm text-gray-400 leading-relaxed mb-4">
+                                        An interactive web application that creates personalized workout plans based on individual goals and fitness levels. Features multiple training types including full-body, split, PPL, HIIT, and Arnold Split routines. Modern UI with smooth animations and mobile-responsive design. Deployed at <a href="https://dein-personalisierter-trainingsplan.vercel.app/" className="underline hover:text-blue-400" target="_blank" rel="noopener noreferrer">dein-personalisierter-trainingsplan.vercel.app</a>.
+                                    </p>
+                                    <div className="flex flex-wrap gap-2 mb-4" aria-label="Technologies used in Personalized Training Planner">
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Next.js 14</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">TypeScript</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Tailwind CSS</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Framer Motion</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">React</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Vercel</span>
+                                    </div>
+                                    <div className="flex gap-4 mt-auto">
+                                        <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://dein-personalisierter-trainingsplan.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                            Live Demo
+                                        </AnimatedButton>
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="https://github.com/im23b-hubere/Dein-personalisierter-Trainingsplaner" target="_blank" rel="noopener noreferrer">
+                                            Source Code
+                                        </AnimatedButton>
+                                    </div>
+                                </div>
+                            </div>
+                        </AnimatedSection>
                     </div>
                 </div>
             </section>
