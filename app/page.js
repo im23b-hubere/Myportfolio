@@ -53,7 +53,7 @@ export default function Home() {
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 rounded-full"/>
                                 <div className="absolute inset-4 bg-zinc-900 rounded-full overflow-hidden flex items-center justify-center">
                                     <Image
-                                        src="/PB/pb4.jpg"
+                                        src="/PB/pb4.JPG"
                                         alt="Eric - Web Developer & Music Producer"
                                         fill
                                         className="object-cover"
