@@ -77,54 +77,8 @@ export default function ProjectsCertifications() {
                     </AnimatedSection>
 
                     <div className="grid md:grid-cols-2 gap-8">
-                        {/* Project 1 */}
+                        {/* Project 1: BlissAI */}
                         <AnimatedSection>
-                            <div className="group relative overflow-hidden rounded-2xl">
-                                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
-                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl">
-                                    <div>
-                                        <h3 className="text-lg font-semibold mb-3">Portfolio Website</h3>
-                                        <p className="text-sm text-gray-400 leading-relaxed">
-                                            Modern, responsive portfolio website built with Next.js and Tailwind CSS. Features smooth animations and a clean design.
-                                        </p>
-                                    </div>
-                                    <div className="flex gap-4 mt-4">
-                                        <AnimatedButton className="button-primary text-sm px-6 py-2">
-                                            View Project
-                                        </AnimatedButton>
-                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors">
-                                            Source Code
-                                        </AnimatedButton>
-                                    </div>
-                                </div>
-                            </div>
-                        </AnimatedSection>
-
-                        {/* Project 2 */}
-                        <AnimatedSection delay={0.2}>
-                            <div className="group relative overflow-hidden rounded-2xl">
-                                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
-                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl">
-                                    <div>
-                                        <h3 className="text-lg font-semibold mb-3">Fitness Tracker App</h3>
-                                        <p className="text-sm text-gray-400 leading-relaxed">
-                                            A fitness tracking application that helps users monitor workouts, set goals, and track progress with data visualization.
-                                        </p>
-                                    </div>
-                                    <div className="flex gap-4 mt-4">
-                                        <AnimatedButton className="button-primary text-sm px-6 py-2">
-                                            View Project
-                                        </AnimatedButton>
-                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors">
-                                            Source Code
-                                        </AnimatedButton>
-                                    </div>
-                                </div>
-                            </div>
-                        </AnimatedSection>
-
-                        {/* Project 3: BlissAI */}
-                        <AnimatedSection delay={0.4}>
                             <div className="group relative overflow-hidden rounded-2xl">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
                                 <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
@@ -158,13 +112,16 @@ export default function ProjectsCertifications() {
                                         <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://blissai.live" target="_blank" rel="noopener noreferrer">
                                             Visit BlissAI
                                         </AnimatedButton>
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="https://github.com/im23b-hubere/BlissAI" target="_blank" rel="noopener noreferrer">
+                                            Source Code
+                                        </AnimatedButton>
                                     </div>
                                 </div>
                             </div>
                         </AnimatedSection>
 
-                        {/* Project 4: Currency Calculator */}
-                        <AnimatedSection delay={0.6}>
+                        {/* Project 2: Currency Calculator */}
+                        <AnimatedSection delay={0.2}>
                             <div className="group relative overflow-hidden rounded-2xl">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
                                 <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
@@ -203,8 +160,8 @@ export default function ProjectsCertifications() {
                             </div>
                         </AnimatedSection>
 
-                        {/* Project 5: Personalized Training Planner */}
-                        <AnimatedSection delay={0.8}>
+                        {/* Project 3: Personalized Training Planner */}
+                        <AnimatedSection delay={0.4}>
                             <div className="group relative overflow-hidden rounded-2xl">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
                                 <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
@@ -243,8 +200,8 @@ export default function ProjectsCertifications() {
                             </div>
                         </AnimatedSection>
 
-                        {/* Project 6: HRMatrix */}
-                        <AnimatedSection delay={1.0}>
+                        {/* Project 4: HRMatrix */}
+                        <AnimatedSection delay={0.6}>
                             <div className="group relative overflow-hidden rounded-2xl">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
                                 <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
@@ -284,6 +241,46 @@ export default function ProjectsCertifications() {
                                             Live Demo
                                         </AnimatedButton>
                                         <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="https://github.com/im23b-hubere/HRMatrix" target="_blank" rel="noopener noreferrer">
+                                            Source Code
+                                        </AnimatedButton>
+                                    </div>
+                                </div>
+                            </div>
+                        </AnimatedSection>
+
+                        {/* Project 5: ShiftFile */}
+                        <AnimatedSection delay={0.8}>
+                            <div className="group relative overflow-hidden rounded-2xl">
+                                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
+                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
+                                    <div className="w-full h-40 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-xl mb-4 flex items-center justify-center border border-zinc-800/40">
+                                        <div className="text-center">
+                                            <div className="text-4xl mb-2">🔄</div>
+                                            <div className="text-sm text-gray-300 font-medium">File Converter</div>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center gap-3 mb-3">
+                                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-cyan-500 to-blue-500 flex items-center justify-center border border-zinc-700 shadow">
+                                            <span className="text-white font-bold text-lg">SF</span>
+                                        </div>
+                                        <h3 className="text-lg font-semibold">ShiftFile</h3>
+                                    </div>
+                                    <p className="text-sm text-gray-400 leading-relaxed mb-4">
+                                        A simple web tool for converting image files quickly, locally and without any frills. Supports common image formats such as JPG ↔ PNG, WEBP, GIF, TIFF, BMP, and ICO. Features drag & drop upload, direct download, and automatic cleanup of temporary files. Ideal for everyday use or as a practical portfolio project. Deployed at <a href="https://shift-file.vercel.app/" className="underline hover:text-blue-400" target="_blank" rel="noopener noreferrer">shift-file.vercel.app</a>.
+                                    </p>
+                                    <div className="flex flex-wrap gap-2 mb-4" aria-label="Technologies used in ShiftFile">
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Flask</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Python</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Pillow (PIL)</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">HTML/CSS</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">JavaScript</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Vercel</span>
+                                    </div>
+                                    <div className="flex gap-4 mt-auto">
+                                        <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://shift-file.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                            Live Demo
+                                        </AnimatedButton>
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="https://github.com/im23b-hubere/ShiftFile" target="_blank" rel="noopener noreferrer">
                                             Source Code
                                         </AnimatedButton>
                                     </div>
