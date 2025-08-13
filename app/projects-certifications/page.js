@@ -242,6 +242,54 @@ export default function ProjectsCertifications() {
                                 </div>
                             </div>
                         </AnimatedSection>
+
+                        {/* Project 6: HRMatrix */}
+                        <AnimatedSection delay={1.0}>
+                            <div className="group relative overflow-hidden rounded-2xl">
+                                <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
+                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
+                                    {/* Work in Progress Badge */}
+                                    <div className="absolute top-4 right-4 z-10">
+                                        <span className="px-3 py-1 bg-amber-500/20 text-amber-400 text-xs font-medium rounded-full border border-amber-500/30 backdrop-blur-sm">
+                                            🚧 Work in Progress
+                                        </span>
+                                    </div>
+                                    
+                                    <div className="w-full h-40 bg-gradient-to-br from-indigo-500/20 to-purple-500/20 rounded-xl mb-4 flex items-center justify-center border border-zinc-800/40">
+                                        <div className="text-center">
+                                            <div className="text-4xl mb-2">👥</div>
+                                            <div className="text-sm text-gray-300 font-medium">HR Management System</div>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center gap-3 mb-3">
+                                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center border border-zinc-700 shadow">
+                                            <span className="text-white font-bold text-lg">HR</span>
+                                        </div>
+                                        <h3 className="text-lg font-semibold">HRMatrix</h3>
+                                    </div>
+                                    <p className="text-sm text-gray-400 leading-relaxed mb-4">
+                                        A modern CV management system for companies, featuring drag & drop file uploads, rating system, status management, team collaboration, and invitation system. Built with Next.js 15, Prisma, and Tailwind CSS. <span className="text-amber-400 font-medium">Currently in development - not all features are fully functional yet.</span> Deployed at <a href="https://www.hr-matrix.online/" className="underline hover:text-blue-400" target="_blank" rel="noopener noreferrer">hr-matrix.online</a>.
+                                    </p>
+                                    <div className="flex flex-wrap gap-2 mb-4" aria-label="Technologies used in HRMatrix">
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Next.js 15</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">TypeScript</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Prisma ORM</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Tailwind CSS</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">NextAuth.js</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">PostgreSQL</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Vercel</span>
+                                    </div>
+                                    <div className="flex gap-4 mt-auto">
+                                        <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://www.hr-matrix.online/" target="_blank" rel="noopener noreferrer">
+                                            Live Demo
+                                        </AnimatedButton>
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="https://github.com/im23b-hubere/HRMatrix" target="_blank" rel="noopener noreferrer">
+                                            Source Code
+                                        </AnimatedButton>
+                                    </div>
+                                </div>
+                            </div>
+                        </AnimatedSection>
                     </div>
                 </div>
             </section>
