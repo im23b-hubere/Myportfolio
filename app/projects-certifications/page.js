@@ -324,9 +324,6 @@ export default function ProjectsCertifications() {
                                         <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Vercel</span>
                                     </div>
                                     <div className="flex gap-4 mt-auto">
-                                        <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://medicine-ml-chatbot.vercel.app/" target="_blank" rel="noopener noreferrer">
-                                            Preview Demo
-                                        </AnimatedButton>
                                         <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="https://github.com/im23b-hubere/medicine-ml-chatbot.git" target="_blank" rel="noopener noreferrer">
                                             Source Code
                                         </AnimatedButton>
