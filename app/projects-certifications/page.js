@@ -79,9 +79,9 @@ export default function ProjectsCertifications() {
                     <div className="grid md:grid-cols-2 gap-8">
                         {/* Project 1: BlissAI */}
                         <AnimatedSection>
-                            <div className="group relative overflow-hidden rounded-2xl">
+                            <div className="group relative overflow-hidden rounded-2xl h-full">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
-                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
+                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col h-full">
                                     <img
                                         src="/projects/BlissAI_preview.png"
                                         alt="BlissAI Chatbot Preview"
@@ -112,7 +112,7 @@ export default function ProjectsCertifications() {
                                         <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://blissai.live" target="_blank" rel="noopener noreferrer">
                                             Visit BlissAI
                                         </AnimatedButton>
-                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="https://github.com/im23b-hubere/BlissAI" target="_blank" rel="noopener noreferrer">
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors flex items-center" href="https://github.com/im23b-hubere/BlissAI" target="_blank" rel="noopener noreferrer">
                                             Source Code
                                         </AnimatedButton>
                                     </div>
@@ -122,9 +122,9 @@ export default function ProjectsCertifications() {
 
                         {/* Project 2: Currency Calculator */}
                         <AnimatedSection delay={0.2}>
-                            <div className="group relative overflow-hidden rounded-2xl">
+                            <div className="group relative overflow-hidden rounded-2xl h-full">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
-                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
+                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col h-full">
                                     <img
                                         src="/projects/currency-calculator-preview.png"
                                         alt="Currency Calculator Preview"
@@ -152,7 +152,7 @@ export default function ProjectsCertifications() {
                                         <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://currency-calculator-nu.vercel.app/" target="_blank" rel="noopener noreferrer">
                                             Live Demo
                                         </AnimatedButton>
-                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="https://github.com/im23b-hubere/currency_calculator" target="_blank" rel="noopener noreferrer">
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors flex items-center" href="https://github.com/im23b-hubere/currency_calculator" target="_blank" rel="noopener noreferrer">
                                             Source Code
                                         </AnimatedButton>
                                     </div>
@@ -162,9 +162,9 @@ export default function ProjectsCertifications() {
 
                         {/* Project 3: Personalized Training Planner */}
                         <AnimatedSection delay={0.4}>
-                            <div className="group relative overflow-hidden rounded-2xl">
+                            <div className="group relative overflow-hidden rounded-2xl h-full">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
-                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
+                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col h-full">
                                     <div className="w-full h-40 bg-gradient-to-br from-orange-500/20 to-red-500/20 rounded-xl mb-4 flex items-center justify-center border border-zinc-800/40">
                                         <div className="text-center">
                                             <div className="text-4xl mb-2">🏋️</div>
@@ -192,7 +192,7 @@ export default function ProjectsCertifications() {
                                         <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://dein-personalisierter-trainingsplan.vercel.app/" target="_blank" rel="noopener noreferrer">
                                             Live Demo
                                         </AnimatedButton>
-                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="https://github.com/im23b-hubere/Dein-personalisierter-Trainingsplaner" target="_blank" rel="noopener noreferrer">
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors flex items-center" href="https://github.com/im23b-hubere/Dein-personalisierter-Trainingsplaner" target="_blank" rel="noopener noreferrer">
                                             Source Code
                                         </AnimatedButton>
                                     </div>
@@ -202,9 +202,9 @@ export default function ProjectsCertifications() {
 
                         {/* Project 4: HRMatrix */}
                         <AnimatedSection delay={0.6}>
-                            <div className="group relative overflow-hidden rounded-2xl">
+                            <div className="group relative overflow-hidden rounded-2xl h-full">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
-                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
+                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col h-full">
                                     {/* Work in Progress Badge */}
                                     <div className="absolute top-4 right-4 z-10">
                                         <span className="px-3 py-1 bg-amber-500/20 text-amber-400 text-xs font-medium rounded-full border border-amber-500/30 backdrop-blur-sm">
@@ -240,7 +240,7 @@ export default function ProjectsCertifications() {
                                         <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://www.hr-matrix.online/" target="_blank" rel="noopener noreferrer">
                                             Live Demo
                                         </AnimatedButton>
-                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="https://github.com/im23b-hubere/HRMatrix" target="_blank" rel="noopener noreferrer">
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors flex items-center" href="https://github.com/im23b-hubere/HRMatrix" target="_blank" rel="noopener noreferrer">
                                             Source Code
                                         </AnimatedButton>
                                     </div>
@@ -250,9 +250,9 @@ export default function ProjectsCertifications() {
 
                         {/* Project 5: ShiftFile */}
                         <AnimatedSection delay={0.8}>
-                            <div className="group relative overflow-hidden rounded-2xl">
+                            <div className="group relative overflow-hidden rounded-2xl h-full">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
-                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
+                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col h-full">
                                     <div className="w-full h-40 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-xl mb-4 flex items-center justify-center border border-zinc-800/40">
                                         <div className="text-center">
                                             <div className="text-4xl mb-2">🔄</div>
@@ -280,7 +280,7 @@ export default function ProjectsCertifications() {
                                         <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://shift-file.vercel.app/" target="_blank" rel="noopener noreferrer">
                                             Live Demo
                                         </AnimatedButton>
-                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="https://github.com/im23b-hubere/ShiftFile" target="_blank" rel="noopener noreferrer">
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors flex items-center" href="https://github.com/im23b-hubere/ShiftFile" target="_blank" rel="noopener noreferrer">
                                             Source Code
                                         </AnimatedButton>
                                     </div>
@@ -290,9 +290,9 @@ export default function ProjectsCertifications() {
 
                         {/* Project 6: Medical AI Assistant */}
                         <AnimatedSection delay={1.0}>
-                            <div className="group relative overflow-hidden rounded-2xl">
+                            <div className="group relative overflow-hidden rounded-2xl h-full">
                                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
-                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col">
+                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col h-full">
                                     {/* Preview Badge */}
                                     <div className="absolute top-4 right-4 z-10">
                                         <span className="px-3 py-1 bg-blue-500/20 text-blue-400 text-xs font-medium rounded-full border border-blue-500/30 backdrop-blur-sm">
@@ -324,7 +324,7 @@ export default function ProjectsCertifications() {
                                         <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Vercel</span>
                                     </div>
                                     <div className="flex gap-4 mt-auto">
-                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors" href="https://github.com/im23b-hubere/medicine-ml-chatbot.git" target="_blank" rel="noopener noreferrer">
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors flex items-center" href="https://github.com/im23b-hubere/medicine-ml-chatbot.git" target="_blank" rel="noopener noreferrer">
                                             Source Code
                                         </AnimatedButton>
                                     </div>
