@@ -364,8 +364,43 @@ export default function ProjectsCertifications() {
                                         <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://devware-ch.netlify.app/" target="_blank" rel="noopener noreferrer">
                                             Live Demo
                                         </AnimatedButton>
-                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 opacity-50 cursor-not-allowed flex items-center" href="#" disabled>
-                                            Source Code (coming soon)
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors flex items-center" href="https://github.com/devware-ch/devware-landingpage" target="_blank" rel="noopener noreferrer">
+                                            Source Code
+                                        </AnimatedButton>
+                                    </div>
+                                </div>
+                            </div>
+                        </AnimatedSection>
+                        <AnimatedSection delay={1.4}>
+                            <div className="group relative overflow-hidden rounded-2xl h-full">
+                                <div className="absolute inset-0 bg-gradient-to-br from-gray-500/20 via-blue-500/20 to-emerald-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
+                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col h-full">
+                                    <div className="w-full h-40 bg-gradient-to-br from-gray-500/20 to-emerald-500/20 rounded-xl mb-4 flex items-center justify-center border border-zinc-800/40">
+                                        <div className="text-center">
+                                            <div className="text-4xl mb-2">📰</div>
+                                            <div className="text-sm text-gray-300 font-medium">Technews Automatisierung</div>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-center gap-3 mb-3">
+                                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-gray-500 to-emerald-500 flex items-center justify-center border border-zinc-700 shadow">
+                                            <span className="text-white font-bold text-lg">n8n</span>
+                                        </div>
+                                        <h3 className="text-lg font-semibold">Technews Automatisierung mit n8n</h3>
+                                    </div>
+                                    <p className="text-sm text-gray-400 leading-relaxed mb-4">
+                                        Ein selbst gehosteter n8n-Workflow, der täglich aktuelle Technews aus verschiedenen Quellen (APIs & RSS) aggregiert und mir automatisch per E-Mail zusendet. Ziel war es, mit Automatisierungstools wie n8n effizient auf dem Laufenden zu bleiben und Routineaufgaben zu vereinfachen.
+                                    </p>
+                                    <div className="flex flex-wrap gap-2 mb-4" aria-label="Technologien used in Technews Automatisierung">
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">n8n</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">API</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">RSS</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">E-Mail</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Self-hosted</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Automatisierung</span>
+                                    </div>
+                                    <div className="flex gap-4 mt-auto">
+                                        <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://n8n.io/" target="_blank" rel="noopener noreferrer">
+                                            Mehr zu n8n
                                         </AnimatedButton>
                                     </div>
                                 </div>
