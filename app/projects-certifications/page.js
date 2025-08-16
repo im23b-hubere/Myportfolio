@@ -331,6 +331,46 @@ export default function ProjectsCertifications() {
                                 </div>
                             </div>
                         </AnimatedSection>
+
+                        {/* Project 7: devware – Digital Agency Website */}
+                        <AnimatedSection delay={1.2}>
+                            <div className="group relative overflow-hidden rounded-2xl h-full">
+                                <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/20 via-blue-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"/>
+                                <div className="relative p-6 bg-zinc-900/80 backdrop-blur-sm border border-zinc-800/50 rounded-2xl flex flex-col h-full">
+                                    <img
+                                        src="/projects/devware-preview.png"
+                                        alt="devware Agency Website Preview"
+                                        className="w-full h-40 object-cover rounded-xl mb-4 shadow-lg border border-zinc-800/40"
+                                        loading="lazy"
+                                        onError={(e) => { e.target.onerror = null; e.target.src = '/projects/BlissAI_preview.png'; }}
+                                    />
+                                    <div className="flex items-center gap-3 mb-3">
+                                        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-blue-500 flex items-center justify-center border border-zinc-700 shadow">
+                                            <span className="text-white font-bold text-lg">DW</span>
+                                        </div>
+                                        <h3 className="text-lg font-semibold">devware – Digital Agency Website</h3>
+                                    </div>
+                                    <p className="text-sm text-gray-400 leading-relaxed mb-4">
+                                        A modern landing page for a digital agency startup, featuring a clean, unique design and a strong focus on user experience. Built as a real-world project with a friend, the site showcases expertise in web development, UI/UX, and branding. <span className="text-amber-400 font-medium">Note: The startup is currently on hold, but the project demonstrates practical skills in building and deploying production-ready web applications.</span>
+                                    </p>
+                                    <div className="flex flex-wrap gap-2 mb-4" aria-label="Technologies used in devware">
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Next.js</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">React</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Tailwind CSS</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">JavaScript</span>
+                                        <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">Vercel</span>
+                                    </div>
+                                    <div className="flex gap-4 mt-auto">
+                                        <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://devware-ch.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                            Live Demo
+                                        </AnimatedButton>
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 opacity-50 cursor-not-allowed flex items-center" href="#" disabled>
+                                            Source Code (coming soon)
+                                        </AnimatedButton>
+                                    </div>
+                                </div>
+                            </div>
+                        </AnimatedSection>
                     </div>
                 </div>
             </section>
