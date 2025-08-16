@@ -313,7 +313,7 @@ export default function ProjectsCertifications() {
                                         <h3 className="text-lg font-semibold">Medical AI Assistant</h3>
                                     </div>
                                     <p className="text-sm text-gray-400 leading-relaxed mb-4">
-                                        A sophisticated medical question-answering system using semantic search and machine learning. Features FastAPI backend, SentenceTransformers for intelligent matching, and evidence-based medical responses. <span className="text-blue-400 font-medium">Note: Online version is a preview - full ML capabilities available in source code.</span> Deployed at <a href="https://medicine-ml-chatbot.vercel.app/" className="underline hover:text-blue-400" target="_blank" rel="noopener noreferrer">medicine-ml-chatbot.vercel.app</a>.
+                                        A sophisticated medical question-answering system using semantic search and machine learning. Features FastAPI backend, SentenceTransformers for intelligent matching, and evidence-based medical responses. <span className="text-blue-400 font-medium">Note: Online version is a preview - full ML capabilities available in source code.</span>
                                     </p>
                                     <div className="flex flex-wrap gap-2 mb-4" aria-label="Technologies used in Medical AI Assistant">
                                         <span className="px-3 py-1 rounded-full bg-zinc-800 text-xs text-gray-200 border border-zinc-700">FastAPI</span>
