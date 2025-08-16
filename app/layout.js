@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,6 +13,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+        <Head>
+            <title>Eric Huber - Portfolio</title>
+            <meta name="description" content="Software Developer & Audio Engineer Portfolio" />
+            <meta property="og:title" content="Eric Huber - Portfolio" />
+            <meta property="og:description" content="Software Developer & Audio Engineer Portfolio" />
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://deine-domain.tld/" />
+            <meta property="og:image" content="/projects/BlissAI_preview.png" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="Eric Huber - Portfolio" />
+            <meta name="twitter:description" content="Software Developer & Audio Engineer Portfolio" />
+            <meta name="twitter:image" content="/projects/BlissAI_preview.png" />
+            <link rel="canonical" href="https://deine-domain.tld/" />
+        </Head>
         <body className={`${inter.className} min-h-screen bg-black text-white`}>
         {/* Space background */}
         <div className="space-bg" />
