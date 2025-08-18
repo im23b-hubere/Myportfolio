@@ -74,9 +74,7 @@ export default function Home() {
                     <AnimatedSection className="text-center mb-20">
                         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">My Expertise</h2>
                         <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed text-center">
-                            From the first line of code to complex applications, my journey in tech has been driven by curiosity and a 
-                            passion for creating innovative solutions. I specialize in building modern, responsive web applications 
-                            that combine elegant design with powerful functionality.
+                            I like turning ideas into modern web apps. My goal is to make websites that look great and work smoothly on any device.
                         </p>
                     </AnimatedSection>
 
@@ -144,8 +142,7 @@ export default function Home() {
                     <AnimatedSection className="text-center mb-20">
                         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Beyond Code</h2>
                         <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed text-center">
-                            When I'm not immersed in code, I explore other passions that fuel my creativity and drive. These diverse 
-                            interests shape my perspective and enhance my problem-solving abilities in unique ways.
+                            When I’m not coding, I enjoy my other hobbies. They give me new ideas and help me solve problems.
                         </p>
                     </AnimatedSection>
 
