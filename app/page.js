@@ -34,8 +34,7 @@ export default function Home() {
                                         Hi, I'm Eric
                                     </h1>
                                     <p className="text-lg sm:text-xl text-white/80 max-w-xl leading-relaxed mx-auto md:mx-0">
-                                        A passionate Web Developer & Music Producer crafting modern web experiences and electronic music. 
-                                        I blend creativity with technology to create something unique.
+                                        Web developer. Music producer. I create modern websites and electronic music by blending creativity with technology.
                                     </p>
                                 </div>
                                 <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start w-full">
