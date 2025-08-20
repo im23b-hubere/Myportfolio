@@ -145,7 +145,7 @@ export default function ExpertiseSection() {
                         My Expertise
                     </h2>
                     <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                        Technologies and tools I work with to create modern, scalable applications
+                        Technologies and tools I work with to create modern, scalable applications. I also use AI tools and AI-generated code to work faster and create better solutions.
                     </p>
                 </motion.div>
                 
