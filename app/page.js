@@ -2,6 +2,7 @@ import Image from "next/image";
 import AnimatedSection from "./components/AnimatedSection";
 import AnimatedButton from "./components/AnimatedButton";
 import Header from "./components/Header";
+import ExpertiseSection from "./components/ExpertiseSection";
 
 export default function Home() {
     return (
@@ -70,67 +71,8 @@ export default function Home() {
             <section id="expertise" className="relative py-32 section-transition section-glow">
                 <div className="absolute inset-0 bg-gradient-to-b from-black via-zinc-900/50 to-black"/>
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(68,68,68,0.05)_1px,transparent_1px)] bg-[length:32px_32px] animate-grid-fade"/>
-                <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <AnimatedSection className="text-center mb-20">
-                        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">My Expertise</h2>
-                        <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed text-center">
-                            I like turning ideas into modern web apps. My goal is to make websites that look great and work smoothly on any device.
-                        </p>
-                    </AnimatedSection>
-
-                    <div className="grid gap-8 max-w-3xl mx-auto mt-12">
-                        {[
-                            {
-                                name: 'Frontend Development',
-                                level: 60,
-                                color: 'from-blue-500 to-cyan-500',
-                                technologies: ['React', 'Next.js', 'HTML/CSS', 'JavaScript/TypeScript']
-                            },
-                            {
-                                name: 'Backend Development',
-                                level: 40,
-                                color: 'from-green-500 to-emerald-500',
-                                technologies: ['Python', 'Node.js', 'REST APIs', 'MongoDB/SQL']
-                            },
-                            {
-                                name: 'Databases',
-                                level: 50,
-                                color: 'from-purple-500 to-pink-500',
-                                technologies: ['MySQL', 'MongoDB', 'PostgreSQL']
-                            },
-                            {
-                                name: 'DevOps & Tools',
-                                level: 55,
-                                color: 'from-cyan-500 to-blue-500',
-                                technologies: ['Git/GitHub', 'Docker', 'AWS', 'n8n']
-                            },
-                        ].map((skill, index) => (
-                            <AnimatedSection key={skill.name} delay={index * 0.1}>
-                                <div className="space-y-2">
-                                    <div className="flex justify-between text-sm">
-                                        <span className="font-medium text-gray-200">{skill.name}</span>
-                                        <span className="text-gray-400">{skill.level}%</span>
-                                    </div>
-                                    <div className="h-3 bg-zinc-800 rounded-full overflow-hidden">
-                                        <div
-                                            className={`h-full bg-gradient-to-r ${skill.color} animate-fill-bar`}
-                                            style={{width: `${skill.level}%`}}
-                                        />
-                                    </div>
-                                    <div className="flex flex-wrap gap-3 mt-3">
-                                        {skill.technologies.map((tech) => (
-                                            <span
-                                                key={tech}
-                                                className="px-4 py-1 rounded-full bg-zinc-800/80 text-gray-200 text-sm font-medium shadow-sm border border-zinc-700"
-                                            >
-                                                {tech}
-                                            </span>
-                                        ))}
-                                    </div>
-                                </div>
-                            </AnimatedSection>
-                        ))}
-                    </div>
+                <div className="relative">
+                    <ExpertiseSection />
                 </div>
             </section>
 
