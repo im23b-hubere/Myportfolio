@@ -1,7 +1,8 @@
 'use client';
 
 import { motion, useMotionValue, useSpring } from "framer-motion";
-import { SiReact, SiNextdotjs, SiMongodb, SiDocker, SiGit, SiNodedotjs, SiJavascript, SiTypescript, SiTailwindcss, SiPostgresql, SiVercel } from 'react-icons/si';
+import { SiReact, SiNextdotjs, SiMongodb, SiDocker, SiGit, SiNodedotjs, SiJavascript, SiTypescript, SiTailwindcss, SiPostgresql, SiAmazon, SiVercel, SiPython, SiFlask, SiFastapi, SiPrisma, SiNextauth, SiOpenai, SiN8n, SiPillow } from 'react-icons/si';
+import { SiHtml5, SiCss3 } from 'react-icons/si';
 import { Cloud } from 'lucide-react';
 import AnimatedSection from "./AnimatedSection";
 
@@ -12,17 +13,27 @@ const technologies = [
     { icon: SiJavascript, name: "JavaScript", category: "Frontend", color: "from-yellow-400 to-orange-500" },
     { icon: SiTypescript, name: "TypeScript", category: "Frontend", color: "from-blue-600 to-blue-700" },
     { icon: SiTailwindcss, name: "Tailwind CSS", category: "Frontend", color: "from-cyan-400 to-blue-500" },
+    { icon: SiHtml5, name: "HTML5", category: "Frontend", color: "from-orange-500 to-red-500" },
+    { icon: SiCss3, name: "CSS3", category: "Frontend", color: "from-blue-500 to-blue-600" },
     
     // Backend
     { icon: SiNodedotjs, name: "Node.js", category: "Backend", color: "from-green-500 to-emerald-500" },
     { icon: SiMongodb, name: "MongoDB", category: "Backend", color: "from-green-400 to-green-600" },
     { icon: SiPostgresql, name: "PostgreSQL", category: "Backend", color: "from-blue-400 to-blue-600" },
+    { icon: SiPython, name: "Python", category: "Backend", color: "from-blue-500 to-yellow-500" },
+    { icon: SiFlask, name: "Flask", category: "Backend", color: "from-gray-400 to-gray-600" },
+    { icon: SiFastapi, name: "FastAPI", category: "Backend", color: "from-green-400 to-green-600" },
+    { icon: SiPrisma, name: "Prisma ORM", category: "Backend", color: "from-blue-600 to-blue-800" },
+    { icon: SiNextauth, name: "NextAuth.js", category: "Backend", color: "from-purple-500 to-purple-600" },
+    { icon: SiOpenai, name: "OpenAI API", category: "Backend", color: "from-green-500 to-emerald-500" },
     
     // DevOps & Tools
     { icon: SiGit, name: "Git", category: "DevOps", color: "from-orange-500 to-red-500" },
     { icon: SiDocker, name: "Docker", category: "DevOps", color: "from-blue-500 to-blue-600" },
     { icon: Cloud, name: "AWS", category: "DevOps", color: "from-orange-400 to-yellow-500" },
     { icon: SiVercel, name: "Vercel", category: "DevOps", color: "from-gray-600 to-black" },
+    { icon: SiN8n, name: "n8n", category: "DevOps", color: "from-purple-500 to-pink-500" },
+    { icon: SiPillow, name: "Pillow (PIL)", category: "DevOps", color: "from-blue-400 to-blue-500" },
 ];
 
 const TechnologyTile = ({ tech, index }) => {
