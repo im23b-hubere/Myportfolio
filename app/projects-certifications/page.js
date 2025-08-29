@@ -112,7 +112,7 @@ export default function ProjectsCertifications() {
                                         <AnimatedButton className="button-primary text-sm px-6 py-2" href="https://blissai.live" target="_blank" rel="noopener noreferrer">
                                             Visit BlissAI
                                         </AnimatedButton>
-                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors flex items-center" href="https://github.com/im23b-hubere/BlissAI" target="_blank" rel="noopener noreferrer">
+                                        <AnimatedButton className="px-6 py-2 text-sm rounded-full border border-zinc-700 hover:border-green-500 transition-colors flex items-center" href="https://github.com/im23b-hubere/BlissAI-chatbot" target="_blank" rel="noopener noreferrer">
                                             Source Code
                                         </AnimatedButton>
                                     </div>
